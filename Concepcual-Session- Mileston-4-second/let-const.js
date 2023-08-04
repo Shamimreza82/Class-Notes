@@ -92,17 +92,17 @@
 // }
 
 
-// const person = {
-//     name:"mehedy",
-//     age: 25,
-//     address: "Rajshahi",
-//     phone: "1234322332"
-// }
+const person = {
+    name:"mehedy",
+    age: 25,
+    address: "Rajshahi",
+    phone: "1234322332"
+}
 
-// for(let i in person){
-//     console.log(typeof i, i)
-//     console.log(person[i])
-// }
+for(let i in person){
+    console.log(typeof i, i)
+    console.log(person[i])
+}
 
 const arr = [1,2,3,4,5]
 console.log(arr.splice(1,2))
