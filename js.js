@@ -55,12 +55,22 @@
 
 
 
-let myFriend = {
-    name: "arif", 
-    age: 34, 
-    phone: "4040404040", 
-    address: "jhenaidah"
-}
+// let myFriend = {
+//     name: "arif", 
+//     age: 34, 
+//     phone: "4040404040", 
+//     address: "jhenaidah"
+// }
+
+// for (let i in myFriend) {
+//     const store = [i]; 
+//     console.log (myFriend[store]); 
+// }
+
+
+
+
+
 
 
 // console.log(myFriend.age); 
@@ -69,16 +79,36 @@ let myFriend = {
 // console.log(myFriend[x]); 
 
 
-const keys = Object.keys(myFriend); 
-const valu = Object.values(myFriend)
+// const keys = Object.keys(myFriend); 
+// const valu = Object.values(myFriend)
 
 
-// for(let key of keys) {
-//     console.log(myFriend[key])
+// // for(let key of keys) {
+// //     console.log(myFriend[key])
 
-// }
+// // }
 
-for ( let i = 1; i < keys.length; i++){
-    const key = keys[i];
-    console.log (myFriend[key])
-} 
+// for ( let i = 1; i < keys.length; i++){
+//     const key = keys[i];
+//     console.log (myFriend[key])
+// } 
+
+
+
+
+function factorial (number) {
+    if (number === 1 || number === 0){
+        return 1;
+    }
+    let result = 1; 
+    for (let i = number; i >= 1; i--){
+        result = result * i; 
+        // console.log (result); 
+    }
+    return result; 
+}
+
+
+const mynumber = 22; 
+console.log (factorial(mynumber)); 
+
